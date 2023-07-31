@@ -5,7 +5,10 @@
 	</p>
 	<br>
 	<a href="https://discord.com/invite/dUrkbpw"><img alt="Discord Server" src="https://img.shields.io/discord/581633886828625930?color=5865F2&logo=discord&logoColor=white"></a>
+	<a href="https://github.com/carterhimmel/searchy/releases/tags/latest"><img alt="GitHub tag" src="https://img.shields.io/github/v/tag/carterhimmel/searchy?label=latest"></a>
 	<a href="https://github.com/carterhimmel/searchy/actions/workflows/ci.yml"><img alt="Test status" src="https://github.com/carterhimmel/searchy/actions/workflows/ci.yml/badge.svg"></a>
+	<!-- <a href="https://chrome.google.com/webstore/detail/truffle/pedabjojoafbajoaadhglpcconngkaie"><img alt="Chrome store badge" src="https://img.shields.io/badge/Chrome_Web_Store-Install-259645?logo=googlechrome&logoColor=1A73E8"></a> -->
+	<a href="#"><img alt="Chrome store badge" src="https://img.shields.io/badge/Chrome_Web_Store-Coming_Soon-259645?logo=googlechrome&logoColor=1A73E8"></a>
 </div>
 
 ## About
