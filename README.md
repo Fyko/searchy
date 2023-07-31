@@ -1,7 +1,7 @@
 <div align="center">
 	<br>
 	<p>
-		<a href="https://github.com/carterhimmel/searchy"><img src="./.github/assets/header.svg" width="700" alt="searchy logo" /></a>
+		<a href="https://github.com/carterhimmel/searchy"><img src="./.github/assets/header.svg" width="500" alt="searchy logo" /></a>
 	</p>
 	<br>
 	<a href="https://discord.com/invite/dUrkbpw"><img alt="Discord Server" src="https://img.shields.io/discord/581633886828625930?color=5865F2&logo=discord&logoColor=white"></a>
