@@ -1,0 +1,47 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  Linting:
+    name: Linting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Volta
+        uses: volta-cli/action@v3
+
+      - name: Add problem matcher
+        run: echo "::add-matcher::.github/matchers/eslint.json"
+
+      - name: Install dependencies
+        uses: ./.github/actions/yarn
+
+      - name: Lint
+        run: yarn lint
+
+  Building:
+    name: Building and testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Volta
+        uses: volta-cli/action@v3
+
+      - name: Add problem matcher
+        run: echo "::add-matcher::.github/matchers/tsc.json"
+
+      - name: Install dependencies
+        uses: ./.github/actions/yarn
+
+      - name: Build
+        run: yarn build:ci

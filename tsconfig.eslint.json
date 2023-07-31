@@ -1,0 +1,22 @@
+{
+	"compileOnSave": true,
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true
+	},
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.js",
+		"**/*.mjs",
+		"**/*.jsx",
+		"**/*.config.ts",
+		"**/*.test.ts",
+		"**/*.test.js",
+		"**/*.test.mjs",
+		"**/*.spec.ts",
+		"**/*.spec.js",
+		"**/*.spec.mjs"
+	],
+	"exclude": []
+}

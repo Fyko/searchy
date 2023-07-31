@@ -1,0 +1,32 @@
+{
+	"name": "searchy",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --mode development",
+		"build": "tsc && vite build --mode production",
+		"build:ci": "concurrently \"yarn build\" \"yarn build\"",
+		"lint": "prettier --check . && eslint src --ext mjs,js,ts,tsx --format=pretty",
+		"format": "prettier --write . && eslint src --ext mjs,js,ts,tsx --fix --format=pretty"
+	},
+	"dependencies": {
+		"fuse.js": "^6.6.2"
+	},
+	"devDependencies": {
+		"@crxjs/vite-plugin": "^1.0.14",
+		"@types/chrome": "^0.0.242",
+		"concurrently": "^8.2.0",
+		"eslint": "^8.45.0",
+		"eslint-config-neon": "^0.1.47",
+		"eslint-formatter-pretty": "^5.0.0",
+		"prettier": "^3.0.0",
+		"typescript": "^5.1.6",
+		"vite": "^4.4.7"
+	},
+	"packageManager": "yarn@4.0.0-rc.48",
+	"volta": {
+		"node": "18.17.0",
+		"yarn": "3.6.1"
+	}
+}

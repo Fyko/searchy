@@ -1,0 +1,13 @@
+{
+	"$schema": "https://json.schemastore.org/eslintrc",
+	"extends": ["neon/common", "neon/node", "neon/typescript", "neon/prettier"],
+	"parserOptions": {
+		"project": "./tsconfig.eslint.json"
+	},
+	"rules": {
+		"comma-dangle": ["error", "always-multiline"],
+		"id-length": 0,
+		"n/prefer-global/url": 0,
+		"n/prefer-global/url-search-params": 0
+	}
+}
