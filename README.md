@@ -13,7 +13,7 @@
 
 ## About
 
-Searchy is a Chrome extension based off of alistair's [search](https://github./com/alii/search) worker.  
+Searchy is a Chrome extension based off of alistair's [search](https://github.com/alii/search?ref=carterhimmel/searchy) worker.  
 The available links are listed in [src/links.ts](./src/links.ts).
 
 ## Roadmap
